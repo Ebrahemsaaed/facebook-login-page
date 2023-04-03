@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.facebook {
+    background-color: #f0f2f5;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    border-radius: 20px 20px;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.form {
+    background-color: white;
+    height: 400px;
+
+    width: 420px;
+    text-align: center;
+    border-radius: 7px 7px;
+    margin-right: 120px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 /10%);
+
+
+
+}
+
+.form input {
+    margin-top: 35px;
+    width: 90%;
+    height: 40px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    border-radius: 6px;
+
+
+}
+
+.form .submit {
+    background-color: #1877f2;
+    border: none;
+    color: aliceblue;
+    min-height: 45px;
+    font-size: 25px;
+}
+
+.form a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.form .button {
+    height: 47px;
+    width: 200px;
+    color: aliceblue;
+    background-color: green;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.form .pform {
+    margin-top: 60px;
+
+}
+
+.form .php {
+    color: black;
+    font-size: 20px;
+}
+
+.h {
+    margin-left: 120px;
+    margin-right: 50px;
+
+
+}
+
+.h1 {
+    font-size: 90px;
+    color: #1877f2;
+
+
+
+}
+
+.h1-2 {
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .facebook {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h {
+        max-width: 400px;
+    }
+
+    .form {
+        margin-left: 120px;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .facebook {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    .facebook {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .form {
+        margin-top: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .facebook {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .facebook {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}
